@@ -1,0 +1,190 @@
+body{
+    background: #7e99ad;
+}
+.calculator{
+    border: 2px solid rgb(170, 158, 158);
+    margin: auto;
+    width: 20%;
+    padding: 4px;
+    border-radius: 15px;
+    height: 291px;
+    margin-top: 50px;
+    background: rgb(212 213 231);
+    box-shadow: 0px 4px #888888;
+}
+#display{
+    border: 2px solid #5b5f7c;
+    margin: 12px 20px 0px;
+    width: 80%;
+    padding: 3px;
+    height: 45px;
+    border-radius: 8px;
+}
+.butttons{
+    position: fixed;
+    margin: auto;
+    /* width: 50%;
+    height: 50x; */
+    margin-top: -12px;
+    padding: 26px;
+    display: grid;
+    width: 18%;
+    height: 199px;
+    grid-template-areas:
+    "ac1 ac1 divide1 into1"
+    "seven1 eaight1 nine1 minus1"
+    "four1 five1 six1 plus1"
+    "one1 two1 three1 plus1"
+    "zero1 point1 equal1 equal1";
+
+    grid-gap:.5rem;
+
+}
+
+
+#zero1 {
+    grid-area: zero1;
+    border: none;
+
+    
+}
+#one {
+    grid-area: one1;
+        border: none;
+
+}
+#two {
+    grid-area: two1;
+    border: none;
+
+}
+#three {
+    grid-area: three1;
+        border: none;
+
+}
+#four {
+    grid-area: four1;
+        border: none;
+
+}
+#five {
+    grid-area: five1;
+        border: none;
+
+}
+#six {
+    grid-area: six1;
+        border: none;
+
+}
+#seven {
+    grid-area: seven1;
+        border: none;
+
+}
+#eaight {
+    grid-area: eaight1;
+        border: none;
+
+}
+#nine {
+    grid-area: nine1;
+        border: none;
+
+   
+}
+#point {
+    grid-area: point1;
+        border: none;
+
+}
+#plus {
+    grid-area:plus1 ;
+    background: rgb(140, 30, 174);
+    color:white;
+    font-size: 44px;
+    font-weight: 900;
+    width: 46px;
+    border: none;
+
+}
+#minus {
+    grid-area: minus1;
+    background: rgb(140, 30, 174);
+    color:white;
+    font-size: 19px;
+    font-weight: 900;
+    width: 46px;
+    border: none;
+
+}
+#into {
+    grid-area: into1;
+    background: rgb(140, 30, 174);
+    color:white;
+    font-size:19px;
+    font-weight: 900;
+    width: 46px;
+    border: none;
+
+
+}
+#divide {
+    grid-area: divide1;
+    background: rgb(140, 30, 174);
+    color:white;
+    font-size:19px;
+    border: none;
+    
+
+
+}
+#ac {
+    grid-area: ac1;
+    background: red;
+    color:white;
+    font-size:19px;
+    border: none;
+    
+    
+}
+#equal {
+    grid-area: equal1;
+    background: rgb(30, 174, 59);
+    color:white;
+    font-size:19px;
+    width: 77px;
+    margin-left: 15px;
+    border: none;
+
+
+}
+
+
+.butttons button{
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #a37d7d;
+}
+
+#into:hover,#divide:hover,#plus:hover,#minus:hover{
+    background: #76ddd3;
+}
+
+#ac:hover{
+    background: #e3514b;
+    color: rgb(0, 0, 0);
+}
+#equal:hover{
+    background: #46e458;
+    color: rgb(0, 0, 0);
+}
+#display h3{
+    margin-top: 0px;
+    float: right;
+    font-size: 39px;
+}
