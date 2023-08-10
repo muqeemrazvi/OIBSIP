@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginAuthen</title>
+    <link rel="stylesheet" href="Login_Authentication.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+    </div>
+
+    <div id="registerPage">
+        <h2 id="headingRegister">Registration Form</h1>
+            <img src="userImgLogo.jpg" alt="" id="userImgLogo">
+            <div>
+                <input type="text" id="userNameInp" placeholder="    User Name">
+            </div>
+            <img src="passLogo.jpg" alt="" id="passLogo">
+
+            <div>
+                <input type="password" id="passwordInp" placeholder="    Password">
+            </div>
+            <label for="" id="showPassDispId">Show password:
+                <input type="checkbox" onclick="showPasswordforReg()" id="showPasswordBtnforReg">
+            </label>
+            <button id="registerBtn" onclick="registerBtnFun()">Save</button>
+
+
+            <br>
+            <label for="" id="memId2">
+                Already have an account?<button onclick="startLoginBtn()" id="startLogBtn">
+                    Login here</button></label>
+
+    </div>
+
+    <div id="loginPage">
+        <h2 id="headingLogin">Login Form</h1>
+            <img src="userImgLogo.jpg" alt="" id="userImgLogo">
+            <div>
+                <input type="text" id="userNameInp1" placeholder="    User Name">
+            </div>
+
+            <img src="passLogo.jpg" alt="" id="passLogo">
+
+            <div>
+                <input type="password" id="passwordInp1" placeholder="    Password">
+            </div>
+
+            <label for="" id="showPassDispId">Show password: <input type="checkbox" onclick="showPasswordforLogin()"
+                    id="showPasswordBtnforLogin">
+            </label>
+            <button id="loginBtn" onclick="loginBtnFun()">Login</button>
+            <br>
+            <label for="" id="memId">Not a member?<button onclick="startRegistrationBtn()" id="startRegBtn">Register
+                    Now</button></label>
+
+    </div>
+
+    <div id="logedPage">
+        <h1 id="h1Id">Access Your Account</h1>
+
+        <button onclick="LogoutBtnFun()" id="logoutBtn">Logout</button>
+        <img src="userImg.jpg" alt="" width="200px" height="200px">
+        <h1 id="userNameInPage"></h1>
+
+    </div>
+
+    <script src="Login_Authentication.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+body {
+    background: #1abc9c;
+}
+
+#registerPage {
+    display: none;
+}
+
+#logedPage {
+    display: none;
+}
+
+
+#loginPage {
+    background: white;
+    width: 20%;
+    height: 237px;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+
+#headingLogin {
+    color: #ffffff;
+    text-align: center;
+    padding: 9px;
+    background-color: #16a085;
+    font-family: sans-serif;
+}
+
+#userNameInp1 {
+    margin-top: -31px;
+    width: 192px;
+    height: 21px;
+    margin-left: 46px;
+    display: inherit;
+}
+
+#passwordInp1 {
+    margin-top: -31px;
+    width: 192px;
+    height: 21px;
+    margin-left: 46px;
+    display: inherit;
+
+}
+
+#userImgLogo {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#passLogo {
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+#showPasswordBtnforLogin {
+    margin-top: 4px;
+    height: 10px;
+    margin-left: -2px;
+}
+
+#showPassDispId {
+    margin-left: 123px;
+    font-size: 14px;
+    width: 8px;
+    font-family: sans-serif;
+}
+
+#loginBtn {
+    text-align: center;
+    /* padding: 9px; */
+    background-color: #16a085;
+    font-family: sans-serif;
+    width: 84%;
+    border: none;
+    height: 12%;
+    margin-left: 20px;
+    color: white;
+    margin-top: 11px;
+    font-size: 18px;
+}
+
+#startRegBtn {
+    display: block;
+    border: none;
+    color: #16a085;
+    background: white;
+    font-family: system-ui;
+}
+
+#memId {
+    display: flex;
+    margin-left: 31px;
+    margin-top: 8px;
+    font-family: system-ui;
+}
+
+
+
+
+#registerPage {
+    background: white;
+    width: 20%;
+    height: 245px;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+
+#headingRegister {
+    color: #ffffff;
+    text-align: center;
+    padding: 9px;
+    background-color: #16a085;
+    font-family: sans-serif;
+}
+
+#userNameInp {
+    margin-top: -31px;
+    width: 192px;
+    height: 21px;
+    margin-left: 46px;
+    display: inherit;
+}
+
+#passwordInp {
+    margin-top: -31px;
+    width: 192px;
+    height: 21px;
+    margin-left: 46px;
+    display: inherit;
+
+}
+
+#registerBtn {
+
+    text-align: center;
+    background-color: #16a085;
+    font-family: sans-serif;
+    width: 84%;
+    border: none;
+    height: 11%;
+    margin-left: 20px;
+    color: white;
+    margin-top: 17px;
+    font-size: 18px;
+
+}
+
+#startLogBtn {
+    display: block;
+    border: none;
+    color: #16a085;
+    background: white;
+    font-family: system-ui;
+}
+
+#memId2 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+#logoutBtn {
+    float: right;
+    width: 125px;
+    height: 50px;
+    color: floralwhite;
+    border: none;
+    font-size: 25px;
+    background: firebrick;
+    align-items: end;
+    margin-top: -58px;
+    margin-right: 15px;
+}
+
+#h1Id {
+    text-align: center;
+    /* margin-top: -278px; */
+    color: #00678f;
+}
+
+#logedPage img {
+    border-radius: 100px;
+    margin-left: 42%;
+}
+
+#userNameInPage {
+    color: #222162;
+
+}
+
+#userNameInPage h2 {
+    background: #fdd;
+    width: 335px;
+    border-radius: 35px;
+    margin-left: 494px;
+    /* text-align: center; */
+    font-size: 33px;
+    padding-left: 14px;
+
+}
+
+#logoutBtn:hover {
+    cursor: pointer;
+    background: #dc5d5d;
+    color: #cbcbcb;
+}
+
+#startRegBtn:hover {
+    cursor: pointer;
+    background: #0e4339;
+    color: #cbcbcb;
+}
+
+#loginBtn:hover {
+    cursor: pointer;
+    background: #0e4339;
+    color: #cbcbcb;
+}
+
+#startLogBtn:hover {
+    cursor: pointer;
+    background: #0e4339;
+    color: #cbcbcb;
+}
+
+#registerBtn:hover {
+    cursor: pointer;
+    background: #0e4339;
+    color: #cbcbcb;
+}
